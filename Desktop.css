@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Lexend-font: "Lexend Deca", sans-serif;
+  --Big-Shoulder-font: "Big shoulder Display", cursive;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+main {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15px;
+}
+.BU {
+  background-color: hsl(0, 0%, 95%);
+  margin: 16%;
+  border-radius: 2rem;
+  padding: 6px;
+  border-color: hsl(0, 0%, 95%);
+  width: 70%;
+  height: 6vh;
+  cursor: pointer;
+}
+.BU:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: hsl(0, 0%, 95%);
+}
+
+.left {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  width: 60%;
+}
+.middle {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+  width: 60%;
+}
+.right {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+  width: 60%;
+}
+p {
+  color: hsl(0, 0%, 100%, 0.75);
+  text-align: left;
+  font-family: var(--Big-Shoulder-font);
+  font-weight: 400;
+}
+h3 {
+  color: hsl(0, 0%, 95%);
+  text-align: left;
+  font-family: var(--Lexend-font);
+  font-weight: 700;
+  margin: 10%;
+  font-size: Bolder;
+}
+.icon {
+  margin: 15%;
+}
+.columns {
+  display: flex;
+  width: 100%;
+}
